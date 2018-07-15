@@ -3,7 +3,7 @@ function addNumbers(a, b, c) {
         let result = a + b + c;
         return result;
     }
-    return 'must insert numbers only!';
+    return NaN;
 }
 let resultOfAddNumbers = addNumbers(2, 15, 24.5);
 console.log(resultOfAddNumbers);
