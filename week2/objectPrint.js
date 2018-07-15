@@ -1,5 +1,5 @@
 function objectPrint(myObject) {
-    console.table(myObject);
+    Object.entries(myObject);
 }
 let myObject = {
     name: 'Sima',
